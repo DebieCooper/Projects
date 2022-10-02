@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "LearnApp\GettingStarted.csproj", "{93A37FB2-D557-4633-A2B9-7ECAD1FAEFE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlfredProject", "AlfredProject\AlfredProject.csproj", "{1311BA63-B320-46B1-AD80-FFD1F34377AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlfredProject", "AlfredProject\AlfredProject.csproj", "{1311BA63-B320-46B1-AD80-FFD1F34377AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{0631B85D-3105-49DE-BBF7-DECA71FDED16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1311BA63-B320-46B1-AD80-FFD1F34377AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1311BA63-B320-46B1-AD80-FFD1F34377AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1311BA63-B320-46B1-AD80-FFD1F34377AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0631B85D-3105-49DE-BBF7-DECA71FDED16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0631B85D-3105-49DE-BBF7-DECA71FDED16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0631B85D-3105-49DE-BBF7-DECA71FDED16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0631B85D-3105-49DE-BBF7-DECA71FDED16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
