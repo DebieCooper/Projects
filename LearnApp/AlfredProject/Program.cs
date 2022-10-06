@@ -336,7 +336,6 @@ namespace AlfredProject
 
 
 
-
                 Console.WriteLine("\nКлавиша Esc для выхода. Любая другая клавиша запустит программу заново.");
             } while (Console.ReadKey().Key != ConsoleKey.Escape);
         }
