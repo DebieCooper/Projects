@@ -55,13 +55,13 @@ namespace Methods_2
         static void Main(string[] args)
         {
             int[] myArray = { 1, 45, 23, 14 };
-            RemoveAt(ref myArray, 2);
+            //RemoveAt(ref myArray, 2);
             //Array.Resize(ref myArray, 10);
 
             //addFirst(ref myArray, 10);
             //addLast(ref myArray, 15);
             //Insert(ref myArray, 56, 2);
-            //Resize(ref myArray, 10);
+            Resize(ref myArray, 10);
         }
     }
 }
