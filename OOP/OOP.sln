@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{D7D4CA17-BFD7-477F-A65D-6E952B24DA02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_FirstLesson", "OOP\OOP_FirstLesson.csproj", "{D7D4CA17-BFD7-477F-A65D-6E952B24DA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{6695F18F-3C61-4842-99E8-F464F8B6F463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{9E6D3D09-6AE0-491A-97D7-4DF9DBEE27CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D7D4CA17-BFD7-477F-A65D-6E952B24DA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7D4CA17-BFD7-477F-A65D-6E952B24DA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7D4CA17-BFD7-477F-A65D-6E952B24DA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6695F18F-3C61-4842-99E8-F464F8B6F463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6695F18F-3C61-4842-99E8-F464F8B6F463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6695F18F-3C61-4842-99E8-F464F8B6F463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6695F18F-3C61-4842-99E8-F464F8B6F463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6D3D09-6AE0-491A-97D7-4DF9DBEE27CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6D3D09-6AE0-491A-97D7-4DF9DBEE27CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6D3D09-6AE0-491A-97D7-4DF9DBEE27CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6D3D09-6AE0-491A-97D7-4DF9DBEE27CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
