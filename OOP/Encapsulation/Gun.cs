@@ -13,6 +13,7 @@ namespace Encapsulation
         {
             _isLoaded = isLoaded;
         }
+
         private bool _isLoaded;
 
         private void Reload()
