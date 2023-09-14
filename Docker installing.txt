@@ -1,0 +1,26 @@
+Update the server:
+sudo apt-get update 
+---------------------------------------------------------------------------------------------------------------
+Install the pre requisites  to allow apt to talk over Https:
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+---------------------------------------------------------------------------------------------------------------
+Add the GPG key for the official Docker repo
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+---------------------------------------------------------------------------------------------------------------
+Add the Docker repo to APT sources
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+---------------------------------------------------------------------------------------------------------------
+Update again:
+Sudo apt-get update
+---------------------------------------------------------------------------------------------------------------
+Confirm the docker repo
+apt-cache policy docker-ce
+---------------------------------------------------------------------------------------------------------------
+Install docker
+sudo apt install docker-ce
+---------------------------------------------------------------------------------------------------------------
+To avoid using sudo every time we run docker commands, add your username to the docker group
+sudo usermod -aG docker ${USER}
+---------------------------------------------------------------------------------------------------------------
+Now reboot the server for the changes to take effect
+Sudo reboot
