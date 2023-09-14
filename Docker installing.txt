@@ -11,7 +11,7 @@ Add the Docker repo to APT sources
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 ---------------------------------------------------------------------------------------------------------------
 Update again:
-Sudo apt-get update
+sudo apt-get update
 ---------------------------------------------------------------------------------------------------------------
 Confirm the docker repo
 apt-cache policy docker-ce
